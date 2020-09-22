@@ -679,8 +679,8 @@ footer .footer-content .links {
 
 @media (max-width: 768px) {
   .nav-container nav .nav-logo img {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
   }
   .nav-container nav ul {
     display: none;
