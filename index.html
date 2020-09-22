@@ -1,36 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburger v.4</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brand site</title>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="menu.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-            <div>
-                <div>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
+  </head>
+  <body>
+    <main>
+      <div class="nav-container">
+        <nav>
+          <a href="/" class="nav-logo">
+            <img src="health.png" alt="logo" />
+            <h2>Cross Gym</h2>
+          </a>
+          <div class="hamburger-menu">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+          <ul>
+            <li class="active"><a>Trainers</a></li>
+            <li><a>Prices</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <section class="hero-container">
+        <div class="hero-content">
+          <h1>Cross gym where the journey begin</h1>
+          <button>See more</button>
+        </div>
+      </section>
+      <section class="trainers-container">
+        <div class="trainers-content">
+          <h3>Our Trainers</h3>
+          <div class="trainer one">
+            <div class="image-wrapper">
+              <img src="trainer_1.png" alt="trainer one" />
             </div>
+            <h4>George Franko</h4>
+          </div>
+          <div class="trainer two">
+            <div class="image-wrapper">
+              <img src="trainer_2.png" alt="trainer two" />
+            </div>
+            <h4>Iris Wrenger</h4>
+          </div>
+          <div class="trainer three">
+            <div class="image-wrapper">
+              <img src="trainer_3.png" alt="trainer three" />
+            </div>
+            <h4>Marcus Floyd</h4>
+          </div>
         </div>
-    </div>
-    <header class="showcase">
-        <div class="container showcase-inner">
-            <h1>Welcome</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam impedit deleniti, eligendi, id sed ullam iure molestiae in nam aperiam repellat odit quas tempore sint, voluptatum praesentium cumque sit. Error.</p>
-            <a href="#" class="btn">Read More</a>
+      </section>
+      <section class="price-container">
+        <div class="price-content">
+          <h3>Prices</h3>
+          <div class="prices">
+            <div class="price">
+              <img src="price_1.jpg" alt="price one" />
+              <h4>Gym</h4>
+              <h5>30$/Month</h5>
+            </div>
+            <div class="price">
+              <img src="price_2.jpg" alt="price two" />
+              <h4>Spining</h4>
+              <h5>25$/Month</h5>
+            </div>
+          </div>
         </div>
-    </header>
-</body>
+      </section>
+      <section class="contact-container">
+        <div class="contact-content">
+          <h3>Contact Us</h3>
+            <form>
+              <div class="input-group">
+                <label>Name</label>
+                <input type="text" />
+              </div>
+              <div class="input-group">
+                <label>Email</label>
+                <input type="text" />
+              </div>
+              <div class="input-group">
+                <label>Subject</label>
+                <input type="text" class="big" />
+              </div>
+              <input type="submit" class="btn" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class='footer-content'>
+          <a href="/" class="nav-logo">
+            <img src="health.png" alt="logo" />
+            <h2>Cross Gym</h2>
+          </a>
+          <h5>If you want to <span>change</span></h5>
+          <h2 class='social'>Follow Us</h2>
+          <ul class='social-list'>
+            <li>
+              Facebook
+            </li><li>
+              Instagram
+            </li>
+            <li>
+              Twitter
+            </li>
+            <li>
+              Youtube
+            </li>
+          </ul>
+          <h2 class='navlink'>Navigation Links</h2>
+          <ul class='links'>
+            <li>Trainers</li>
+            <li>Prices</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
