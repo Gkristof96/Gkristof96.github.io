@@ -33,10 +33,19 @@
           flex: 2;
   text-decoration: none;
   color: #fff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .nav-container nav .nav-logo h2 {
   margin-left: 1rem;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-container nav .nav-logo img {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .nav-container nav ul {
@@ -681,6 +690,9 @@ footer .footer-content .links {
   .nav-container nav .nav-logo img {
     width: 45px;
     height: 45px;
+  }
+  .nav-container nav .nav-logo h2 {
+    font-size: 1.5rem;
   }
   .nav-container nav ul {
     display: none;
