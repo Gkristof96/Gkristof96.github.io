@@ -110,7 +110,7 @@
   width: 100%;
   max-height: 500px;
   position: absolute;
-  top: -25vh;
+  top: -50vh;
   left: 0;
   background-color: #000;
   -webkit-transition: 0.5s ease-in-out;
@@ -157,8 +157,8 @@
 }
 
 .topbar.open {
-  -webkit-transform: translateY(34vh);
-          transform: translateY(34vh);
+  -webkit-transform: translateY(59vh);
+          transform: translateY(59vh);
 }
 
 .hero-container {
